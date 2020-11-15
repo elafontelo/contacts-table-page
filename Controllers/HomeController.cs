@@ -35,29 +35,6 @@ namespace ContactsTable.Controllers
             var test = contacts;
 
             return View(contacts);
-            //Contacts contact = new Contacts();
-
-            //using (MySqlConnection connect = new MySqlConnection("Data Source=localhost; port=3306; Database=testdb; UserId=root; password=123456"))
-            //{
-            //    connect.Open();
-            //    string select = "Select * from contacts";
-            //    MySqlCommand selectCmd = new MySqlCommand();
-            //    selectCmd.CommandText = select;
-            //    selectCmd.Connection = connect;
-            //    MySqlDataAdapter adapter = new MySqlDataAdapter();
-            //    adapter.SelectCommand = selectCmd;
-            //    DataSet set = new DataSet();
-            //    var count = set.Tables.Count;
-            //    adapter.Fill(set);
-            //    var count2 = set.Tables.Count;
-            //    foreach (var item in set.Tables)
-            //    {
-            //        var test = item;
-            //    }
-            //    //gv_contacts.DataSource = set;
-            //    //gv_contacts.DataBind;
-            //    connect.Close();
-            //}
         }
     }
 }
